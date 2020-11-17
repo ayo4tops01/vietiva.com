@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bootstrap Theme</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a href="" class="navbar-brand"
+          ><img src="./img/vietivaIcon.png" alt="" width="50" height="50" />
+          <h3 class="d-inline align-middle">Vietiva</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="nav-link">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a href="menu.html" class="nav-link">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Showcase Slider -->
+    <section id="showcase">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li class="active" data-target="#myCarousel" data-slide-to="1"></li>
+          <li class="active" data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                <h1 class="display-3">
+                  Welcome to Vietiva Vietnamese Restaurant
+                </h1>
+                <h3 class="display-5">
+                  Where cultures and cuisines come together
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-2">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                <h1 class="display-3">Traditional Vietnamese Food</h1>
+                <h3 class="display-5">Speak with the taste</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image-3">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                <h1 class="display-3">The sign of good taste</h1>
+                <h3 class="display-5">When you're here, you're Family</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span
+        ></a>
+        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span
+        ></a>
+      </div>
+    </section>
+
+    <!--Food Delivery -->
+    <section class="py-5" id="food-delivery">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <h2 class="display-4">Order Online</h2>
+          <h5 class="w-75">
+            FREE DELIVERY UP TO 3 MILES WITH $30 MINIMUM ORDER
+            <br />
+            <br />
+            DELIVERIES EXCEEDING 3 MILES (5 MILES MAXIMUM) WILL HAVE A 5$
+            DELIVERY FEE APPLIED TO THEIR ORDER WITH A $30 MINIMUM
+          </h5>
+        </div>
+        <div class="row pt-5">
+          <div class="col-md-3 mb-4 text-center">
+            <span style="color: #e67e22; font-size: 250%"
+              ><i class="fas fa-infinity size"></i
+            ></span>
+            <h3 class="mb-3">OPEN 7 DAYS/WEEK</h3>
+            <p class="">
+              we open from Monday to Sunday between 10:00 am - 9:30 pm. we're
+              always waiting for you
+            </p>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <span style="color: #e67e22; font-size: 250%"
+              ><i class="fas fa-clock"></i
+            ></span>
+            <h3 class="mb-3" style="letter-spacing: 1px">
+              READY IN 10 MINUTES
+            </h3>
+            <p>
+              You're only wait about 10 minutes to get your delicious and
+              healthy meals. We work with the best chefs to ensure that you're
+              100%
+            </p>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <span style="color: #e67e22; font-size: 250%"
+              ><i class="fas fa-seedling"></i
+            ></span>
+            <h3 class="mb-4">100% ORGANIC</h3>
+            <br />
+            <p>
+              All our vegetable are fresh, organic and local. Animals are raised
+              without added hormones or antibiotics
+            </p>
+          </div>
+          <div class="col-md-3 mb-4 text-center">
+            <span style="color: #e67e22; font-size: 250%"
+              ><i class="fas fa-shopping-cart"></i
+            ></span>
+            <h3 class="mb-4">ORDER ANYTHING</h3>
+            <br />
+            <p>
+              We don't limit your creativity which means you can order whatever
+              you feel like
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Meals Section -->
+    <section id="section-meals" class="py-5 clearfix">
+      <div class="container pb-3">
+        <h2 class="display-4 text-center">Our Gallery</h2>
+      </div>
+      <ul class="list-unstyled w-100">
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal1.jpg" alt="" class="w-100" />
+          </figure>
+        </li>
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal2.jpg" alt="" class="w-100" />
+          </figure>
+        </li>
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal3.jpg" alt="" class="w-100" />
+          </figure>
+        </li>
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal4.jpg" alt="" class="w-100" />
+          </figure>
+        </li>
+      </ul>
+      <ul class="list-unstyled w-100">
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal5.jpg" alt="" class="w-100" />
+          </figure>
+        </li>
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal6.jpg" alt="" class="w-100" />
+          </figure>
+        </li>
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal7.jpg" alt="" class="w-100" />
+          </figure>
+        </li>
+        <li class="d-block w-25 float-left">
+          <figure class="w-100 m-0">
+            <img src="./img/meal8.jpg" alt="" class="w-100 m-0" />
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <!-- Location -->
+    <section id="location" class="">
+      <div class="container text-center">
+        <h2 class="display-4">Location</h2>
+        <div class="card">
+          <div class="card-header h5 py-4">FAIRFAX TOWN CENTER</div>
+          <div class="card-body">
+            9999 FAIRFAX BLVD, SUITE 1 <br /><br />
+            FAIRFAX, VIRGINIA 22031 <br />
+          </div>
+          <div class="card-footer py-4">
+            <span style="color: #e67e22; font-size: 250%"
+              ><i class="fas fa-clock"></i></span
+            ><br />
+            HOURS <br />
+            OPEN DAILY 11AM TO 8:30 PM
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Customer Review -->
+    <section id="testimonials" class="py-5 text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h2 class="display-4">TESTIMONIALS</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <blockquote class="blockquote text-left p-2 font-italic">
+              <span class="d-block pb-3" style="color: #ffffff; font-size: 250%"
+                ><i class="fas fa-quote-left"></i
+              ></span>
+              Vietiva is a great traditional vietnamese Restaurant. I always
+              have a good time here. I love their services. They're professional
+              and supper friendly. The price is acceptable and the foods are
+              healthy and delicious
+              <cite class="d-block mt-4"
+                ><img
+                  src="./img/customer1.jpg"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="border rounded-circle border-warning mr-3"
+                />Vincent Nguyen</cite
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <blockquote class="blockquote text-left p-2 font-italic">
+              <span class="d-block pb-3" style="color: #ffffff; font-size: 250%"
+                ><i class="fas fa-quote-left"></i
+              ></span>
+              Inexpensive, healthy and great-tasting meals, I've loved their
+              spring rolls and other meals. Me and my family are so in love with
+              this Restaurant. The price is acceptable, the place is beauty, and
+              I love their services
+              <cite class="d-block mt-4"
+                ><img
+                  src="./img/customer2.jpg"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="border rounded-circle border-warning mr-3"
+                />Bao Nguyen</cite
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <blockquote class="blockquote text-left p-2 font-italic">
+              <span class="d-block pb-3" style="color: #ffffff; font-size: 250%"
+                ><i class="fas fa-quote-left"></i
+              ></span>
+              Vietiva is just an awesome place. I come to the Restaurant every
+              Wednesday. I feel like home when I am there. The foods are always
+              good and I love their services. Really professional and friendly
+              <cite class="d-block mt-4"
+                ><img
+                  src="./img/customer3.jpg"
+                  alt=""
+                  width="50"
+                  height="50"
+                  class="border rounded-circle border-warning mr-3"
+                />Olatunji Ayobami</cite
+              >
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter -->
+    <section id="newsletter" class="py-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Sign Up For Our Newsletter</h1>
+            <p class="lead">
+              Sign up for the Daily Skimm email newsletter. <br />
+              Prepares you for your days in minutes.
+            </p>
+
+            <form
+              action="
+            "
+              class="form-inline justify-content-center"
+            >
+              <input
+                type="
+          "
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Name"
+              />
+              <input
+                type="
+          "
+                class="form-control mb-2 mr-2"
+                placeholder="Enter Email"
+              />
+              <button class="btn mb-2 d-block border border-rounded">
+                Subcribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-light">
+      <div class="container py-5 text-center">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-inline" style="color: #e67e22">
+              <li class="list-inline-item mr-3">
+                <a href="aboutUs.html">About us</a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="aboutUs.html">Blog</a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="aboutUs.html">Press</a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="aboutUs.html">IOS App</a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="aboutUs.html">Android App</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li class="list-inline">
+                <a href=""><i class="fab fa-facebook mr-2"></i></a>
+                <a href=""><i class="fab fa-twitter-square mr-2"></i></a>
+                <a href=""><i class="fab fa-google-plus-g mr-2"></i></a>
+                <a href=""><i class="fab fa-instagram mr-2"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; <span class="" id="year"></span> Vietiva</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+    <script>
+      $(".carousel").carousel({
+        interval: 6000,
+        keyboard: true,
+        pause: "hover",
+      });
+    </script>
+  </body>
+</html>
