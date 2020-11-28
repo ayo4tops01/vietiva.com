@@ -173,48 +173,12 @@
         <h2 class="display-4 text-center">Our Gallery</h2>
       </div>
       <ul class="list-unstyled w-100">
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal1.jpg" alt="" class="w-100" />
-          </figure>
-        </li>
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal2.jpg" alt="" class="w-100" />
-          </figure>
-        </li>
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal3.jpg" alt="" class="w-100" />
-          </figure>
-        </li>
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal4.jpg" alt="" class="w-100" />
-          </figure>
-        </li>
-      </ul>
-      <ul class="list-unstyled w-100">
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal5.jpg" alt="" class="w-100" />
-          </figure>
-        </li>
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal6.jpg" alt="" class="w-100" />
-          </figure>
-        </li>
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal7.jpg" alt="" class="w-100" />
-          </figure>
-        </li>
-        <li class="d-block w-25 float-left">
-          <figure class="w-100 m-0">
-            <img src="./img/meal8.jpg" alt="" class="w-100 m-0" />
-          </figure>
-        </li>
+      	<script type="text/javascript" >
+            var meal_images = ["meal1.jpg", "meal2.jpg", "meal3.jpg", "meal4.jpg", "meal5.jpg", "meal6.jpg", "meal7.jpg", "meal8.jpg"];
+            for (var i = 0; i < meal_images.length; i++){
+            	document.write("<li class='d-block w-25 float-left'> <figure class='w-100 m-0'> <img src='img/" + meal_images[i] + "' class='img-fluid mx-auto d-block'> </figure> </li>");
+                }
+        </script>
       </ul>
     </section>
     <!-- Location -->
