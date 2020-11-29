@@ -132,14 +132,11 @@ footer a:active {
   color: #ffffff;
 }
 
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
 #menu img {
   background-position: center;
   background-size: cover;
-  max-width: 100%;
-  height: auto;
-}
-
-.img-fluid{
-  width: 100%;
-  height: auto;
 }
