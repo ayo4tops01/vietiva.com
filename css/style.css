@@ -138,3 +138,8 @@ footer a:active {
   max-width: 100%;
   height: auto;
 }
+
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
